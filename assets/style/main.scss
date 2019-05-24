@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+// #1 RESET THE CSS
+@import url('reset/reset.css');
+
+// #2 IMPORT CSS/THEME FROM EXTERNAL LIB
+//EXEMPLE :
+
+// @import url('librairie/owl.carousel.min.css');
+// @import url('librairie/owl.theme.default.min.css');
+
+// #3 IMPORT YOUR DESIGN
+@import "partial/all";
+
+ //   ...THE END...   \\
+ 
+//...DON'T CODE HERE...\\
