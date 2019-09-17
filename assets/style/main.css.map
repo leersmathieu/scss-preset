@@ -1,19 +1,19 @@
 {
     "version": 3,
-    "mappings": "AAGA,OAAO,CAAC,sBAAI;AAKZ,OAAO,CAAC,wBAAI;AERZ,aAAa;ACAb,WAAW;AAEX,UAAU;EACN,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,+BAA+B,CAAC,kBAAkB;;;AEJ3D,4BAA4B;ACQ5B,+DAA+D;AAU/D,+DAA+D;AClB/D,0DAA0D;AAE1D,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,QAAQ;CAExB;;ACLD,iBAAiB;AEAjB,WAAW",
+    "mappings": "AAGA,OAAO,CAAC,uBAAI;AAKZ,OAAO,CAAC,yBAAI;AERZ,aAAa;ACAb,WAAW;AAEX,UAAU;EACN,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,+BAA+B,CAAC,kBAAkB;;;AEJ3D,4BAA4B;ACQ5B,+DAA+D;AAU/D,+DAA+D;AClB/D,0DAA0D;AAE1D,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,QAAQ;CAExB;;ACLD,iBAAiB;AEAjB,WAAW",
     "sources": [
         "main.scss",
-        "partial/_all.scss",
-        "partial/module/_all.scss",
-        "partial/module/_fonts.scss",
-        "partial/module/_variable.scss",
-        "partial/module/_fonction.scss",
-        "partial/module/_config.scss",
-        "partial/module/_global.scss",
-        "partial/composant/_all.scss",
-        "partial/composant/_footer.scss",
-        "partial/page/_all.scss",
-        "partial/page/_annexe.scss"
+        "partials/_all.scss",
+        "partials/modules/_all.scss",
+        "partials/modules/_fonts.scss",
+        "partials/modules/_variable.scss",
+        "partials/modules/_fonction.scss",
+        "partials/modules/_config.scss",
+        "partials/modules/_global.scss",
+        "partials/composants/_all.scss",
+        "partials/composants/_footer.scss",
+        "partials/pages/_all.scss",
+        "partials/pages/_annexe.scss"
     ],
     "names": [],
     "file": "main.css"
