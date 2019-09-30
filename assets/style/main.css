@@ -17,4 +17,40 @@ body {
 
 /* COMPOSANTES */
 /* PAGES */
+.afac {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.afac-titre {
+  font-size: 120%;
+  padding: 15px;
+}
+
+.afac-left {
+  float: left;
+  width: 30%;
+}
+
+.afac-right {
+  padding: 30px;
+  text-align: left;
+  float: left;
+  width: 70%;
+  max-width: 650px;
+  margin-top: 200px;
+  background-color: whitesmoke;
+}
+
+.afac p {
+  padding-bottom: 15px;
+}
+
+.afac p:last-child {
+  padding-bottom: 0;
+}
+
+.afac strong {
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */

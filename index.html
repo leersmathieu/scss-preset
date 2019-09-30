@@ -8,8 +8,35 @@
     <title>SCSS - PRESET</title>
 </head>
 <body>
-    <h1>SCSS - PRESET</h1>
-    <img src="assets/img/arch.png" alt="Demo">
+
+    <!-- AFAC === A effacer ! -->
+        <div class="afac">
+            <h1 class="afac-titre">SCSS - PRESET</h1>
+            <div class="afac-left">
+                <img src="assets/img/arch.png" alt="Demo">
+            </div>
+            <div class="afac-right">
+                <p>Le <strong>main.scss </strong>fait office de <strong>controleur</strong> pour le style.<br>
+                il vas notament s'occuper d'importer le(s) resets css, les différentes libriaires (ou thèmes) et enfin tout nos partials ! </p>
+        
+                <p>Les "partials" sont des fichiers préfixés d'un underscore (le fameux "tiret du 8" : _) afin de ne pas être compilés et de ne pas apparaître dans la liste des fichiers CSS générés.</p>
+        
+                <p>le fichier partials/all.scss permet justement de charger tout nos partials (modules, composants et pages)</p>
+        
+                <p>Les <strong>modules</strong> représente notre base pour l'écriture du style. <br>
+                Ils reprennent, entre autre, toutes les variables, le style global appliqué partout (body, h1, p...), les fonts etc...</p>
+        
+                <p>Les <strong>composants</strong> représentent des petites partie de site bien spécifique et réutilisable. Le footer, les boutons, une modal par exemple... </p>
+        
+                <p>Les <strong>pages</strong> représente le style globale d'une page (hors composantes) ET/OU les pages annexes qui utilisent un style différent</p>
+            </div>
+
+    
+    
+        </div>
+    <!-- --------------------- -->
+
+
     <script src='js/main.js'></script>
 </body>
 </html>

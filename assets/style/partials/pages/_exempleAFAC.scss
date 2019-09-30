@@ -1,0 +1,31 @@
+.afac {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    &-titre {
+        font-size: 120%;
+        padding: 15px;
+    }
+    &-left {
+        float: left;
+        width: 30%;
+    }
+    &-right {
+        padding: 30px;
+        text-align: left;
+        float: left;
+        width: 70%;
+        max-width: 650px;
+        margin-top: 200px;
+        background-color: rgb(245, 245, 245);
+        
+    }
+    p {
+        padding-bottom: 15px;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+    strong {
+        font-weight: bold;
+    }
+}
