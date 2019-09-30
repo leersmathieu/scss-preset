@@ -1,3 +1,5 @@
+//Vous pouvez EFFACER cette page !
+
 .afac {
     text-align: center;
     background-color: rgb(245, 245, 245);
@@ -8,6 +10,10 @@
     &-left {
         float: left;
         width: 30%;
+        @media screen and (max-width: 600px){
+            float: unset;
+            width: 100%;
+        }
     }
     &-right {
         padding: 30px;
@@ -17,7 +23,11 @@
         max-width: 650px;
         margin-top: 200px;
         background-color: rgb(245, 245, 245);
-        
+        @media screen and (max-width: 600px){
+            float: unset;
+            width: 100%;
+            margin-top: 0px;
+        }
     }
     p {
         padding-bottom: 15px;

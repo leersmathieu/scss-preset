@@ -1,7 +1,7 @@
 @import url("resets/reset.css");
 @import url("librairies/lib.css");
 /* MODULES */
-/* fonts */
+/* font face & cie */
 @font-face {
   font-family: "Roboto";
   src: url("fonts/Roboto-Regular.ttf") format("truetype");
@@ -10,7 +10,7 @@
 /* Fonctions (Mixins etc) */
 /*********************** C O N F I G *************************/
 /*************************************************************/
-/* global style (for the global balise body, h1, p etc) */
+/* style globale (pour le style globale qui ne bougera jamais : body, h1, p etc) */
 body {
   font-family: 'Roboto';
 }
@@ -32,6 +32,13 @@ body {
   width: 30%;
 }
 
+@media screen and (max-width: 600px) {
+  .afac-left {
+    float: unset;
+    width: 100%;
+  }
+}
+
 .afac-right {
   padding: 30px;
   text-align: left;
@@ -40,6 +47,14 @@ body {
   max-width: 650px;
   margin-top: 200px;
   background-color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+  .afac-right {
+    float: unset;
+    width: 100%;
+    margin-top: 0px;
+  }
 }
 
 .afac p {
