@@ -1,44 +1,39 @@
+@charset "UTF-8";
 @import url("resets/reset.css");
 @import url("librairies/lib.css");
-/* MODULES */
-/* font face & cie */
+/* ABSTRACTS */ /* Link the CSS with our ../fonts */
 @font-face {
   font-family: "Roboto";
   src: url("fonts/Roboto-Regular.ttf") format("truetype");
 }
-
-/* Fonctions (Mixins etc) */
+/* Mixins, functions... */
 /*********************** C O N F I G *************************/
 /*************************************************************/
-/* style globale (pour le style globale qui ne bougera jamais : body, h1, p etc) */
+/* Les COMPOSANTS sont des élément qui vont être réutilisé un peu partout sur le site web */ /* style globale (appliquable partout) */
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
-/* COMPOSANTES */
 /* PAGES */
+/* Feuille de style propre à chaque page pour des modifications spécifique */
 .afac {
   text-align: center;
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
 }
-
 .afac-titre {
   font-size: 120%;
   padding: 15px;
 }
-
 .afac-left {
   float: left;
   width: 30%;
 }
-
 @media screen and (max-width: 600px) {
   .afac-left {
     float: unset;
     width: 100%;
   }
 }
-
 .afac-right {
   padding: 30px;
   text-align: left;
@@ -46,9 +41,8 @@ body {
   width: 70%;
   max-width: 650px;
   margin-top: 200px;
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
 }
-
 @media screen and (max-width: 600px) {
   .afac-right {
     float: unset;
@@ -56,16 +50,12 @@ body {
     margin-top: 0px;
   }
 }
-
 .afac p {
   padding-bottom: 15px;
 }
-
 .afac p:last-child {
   padding-bottom: 0;
 }
-
 .afac strong {
   font-weight: bold;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
