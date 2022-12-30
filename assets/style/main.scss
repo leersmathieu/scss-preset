@@ -1,14 +1,14 @@
 @charset 'utf-8';
 
-// #1 RESET THE CSS
+// #1 En premier on charge le "reset" du style.
 @import url('resets/reset.css');
 
-// #2 IMPORT CSS/THEME FROM EXTERNAL LIB
+// #2 Ensuite on importe les librairies externes
 //EXEMPLE :
 
-@import url('librairies/lib.css');
+@import url('vendors/lib.css');
 
-// #3 IMPORTING YOUR PROPER DESIGN
+// #3 Enfin, on importe notre style personelle.
 @import "scss/all";
 
  //   ...THE END...   \\
